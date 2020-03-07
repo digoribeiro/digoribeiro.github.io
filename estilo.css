@@ -3,6 +3,11 @@ body {
   font-family: 'Ubuntu', sans-serif;
 }
 
+main {
+  width: 90%;
+  margin: 0 auto;
+}
+
 .cabecalho {
   display: flex;
   justify-content: space-between;
