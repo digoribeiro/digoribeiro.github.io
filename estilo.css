@@ -4,24 +4,25 @@ body {
 }
 
 main {
-  width 90%;
+  width: 90%;
   margin: 0 auto;
 }
 
-.cabecalho {
+.cabecalho,
+.profissional-skill {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
 .minhas-infos {
-  flex-grow: 2;
+  flex: 2;
   display: flex;
   align-items: center;
 }
 
 .meus-contatos {
-  flex-grow: 1;
+  flex: 1;
 }
 
 .logo {
@@ -61,12 +62,20 @@ main {
 
 .titulo-principal i {
   width: 40px;
-    height: 40px;
-    background-color: #333;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #EEE;
-    font-size: 18px;
+  height: 40px;
+  background-color: #333;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #eee;
+  font-size: 18px;
+}
+
+.profissional {
+  flex: 2;
+}
+
+.skill {
+  flex: 1;
 }
