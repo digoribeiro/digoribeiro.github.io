@@ -88,3 +88,12 @@ main {
 .coluna-esquerda {
   flex: 1;
 }
+
+.lista-principal {
+  list-style-type: disc;
+  margin-left: 20px;
+}
+
+.lista-principal li {
+  margin-bottom: 20px;
+}
