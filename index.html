@@ -178,8 +178,7 @@
     </div>
     <!-- final profissional skill -->
     <!-- Formulario -->
-    <form action="form/contato.php" method="POST">
-      <fieldset>Contato:</fieldset>
+    <form class="form-contato" action="form/contato.php" method="POST">
       <br>
       <div>
         <label for="nome">Nome</label>
@@ -198,16 +197,16 @@
         <input type="tel" name="telefone" id="telefone" required class="campo telefone">
         <span class="validacao telefone">Campo obrigatorio</span>
       </div>
-
       <div>
         <label for="mensagem">Mesagem</label>
         <textarea name="mensagem" id="mensagem" cols="20" rows="10" required class="campo"></textarea>
         <span class="validacao mensagem">Campo obrigatorio</span>
       </div>
-
-      <button type="submit">
-        Enviar
-      </button>
+      <div>
+        <button type="submit">
+          Enviar
+        </button>
+      </div>
     </form>
     <!-- Formulario -->
   </main>

@@ -158,6 +158,48 @@ footer {
   cursor: pointer;
 }
 
+.form-contato {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.form-contato input,
+.form-contato textarea {
+  border: 0;
+  background: #eee;
+  height: 30px;
+  border-radius: 5px;
+  margin: 10px 0 20px 0;
+}
+
+.form-contato textarea {
+  height: 150px;
+}
+
+.form-contato div {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-contato label {
+  color: #666666;
+  font-size: 18px;
+}
+
+.form-contato button {
+  background: #333333;
+  color: #eee;
+  display: block;
+  width: 100%;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
 .erro {
   border: 1px solid red;
   background-color: pink;
