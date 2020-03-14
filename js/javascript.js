@@ -28,3 +28,11 @@ $('#telefone').blur(function() {
 $('#mensagem').blur(function() {
   validarCampo($(this), $('.validacao.mensagem'));
 });
+
+$('.owl-carousel').owlCarousel({
+  loop: true,
+  margin: 10,
+  nav: false,
+  autoplay: true,
+  autoplayTimeout: 3000,
+});

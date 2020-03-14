@@ -43,10 +43,6 @@ if(isset($_POST['email'])) {
     $error_message .= 'The First Name you entered does not appear to be valid.<br />';
   }
  
-  if(!preg_match($string_exp,$last_name)) {
-    $error_message .= 'The Last Name you entered does not appear to be valid.<br />';
-  }
- 
   if(strlen($mensagem) < 2) {
     $error_message .= 'The mensagem you entered do not appear to be valid.<br />';
   }
