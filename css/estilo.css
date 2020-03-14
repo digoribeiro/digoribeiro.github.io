@@ -139,3 +139,21 @@ footer {
   padding: 20px 0;
   margin-top: 20px;
 }
+
+.resto-curriculo {
+  display: none;
+  padding: 20px;
+  margin: 20px 0;
+  background: #eee;
+}
+
+.resto-curriculo p {
+  margin-bottom: 20px;
+}
+
+.ver-mais {
+  text-align: right;
+  margin: 20px;
+  color: blue;
+  cursor: pointer;
+}
