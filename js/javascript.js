@@ -3,42 +3,28 @@ $('.ver-mais').on('click', function() {
   $('.ver-mais').hide();
 });
 
-$('.nome').blur(function() {
-  if ($('.nome').val() === '') {
-    $(this).addClass('erro');
-    $('.validacao.nome').show();
+function validarCampo(campo, mensagemErro) {
+  if (campo.val() === '') {
+    campo.addClass('erro');
+    $(mensagemErro).show();
   } else {
-    $(this).removeClass('erro');
-    $('.validacao.nome').hide();
+    campo.removeClass();
+    $(mensagemErro).hide();
   }
+}
+
+$('#nome').blur(function() {
+  validarCampo($(this), $('.validacao.nome'));
 });
 
-$('.email').blur(function() {
-  if ($('.email').val() === '') {
-    $(this).addClass('erro');
-    $('.validacao.email').show();
-  } else {
-    $(this).removeClass('erro');
-    $('.validacao.email').hide();
-  }
+$('#email').blur(function() {
+  validarCampo($(this), $('.validacao.email'));
 });
 
-$('.telefone').blur(function() {
-  if ($('.telefone').val() === '') {
-    $(this).addClass('erro');
-    $('.validacao.telefone').show();
-  } else {
-    $(this).removeClass('erro');
-    $('.validacao.telefone').hide();
-  }
+$('#telefone').blur(function() {
+  validarCampo($(this), $('.validacao.telefone'));
 });
 
-$('.mensagem').blur(function() {
-  if ($('.mensagem').val() === '') {
-    $(this).addClass('erro');
-    $('.validacao.mensagem').show();
-  } else {
-    $(this).removeClass('erro');
-    $('.validacao.mensagem').hide();
-  }
+$('#mensagem').blur(function() {
+  validarCampo($(this), $('.validacao.mensagem'));
 });
