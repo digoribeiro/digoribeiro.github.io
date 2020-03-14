@@ -29,12 +29,4 @@ $('#mensagem').blur(function() {
   validarCampo($(this), $('.validacao.mensagem'));
 });
 
-$('.owl-carousel').owlCarousel({
-  loop: true,
-  margin: 10,
-  nav: false,
-  autoplay: true,
-  autoplayTimeout: 3000,
-});
-
 $('.telefone').mask('(00) 0000-0000');
