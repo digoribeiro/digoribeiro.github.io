@@ -157,3 +157,13 @@ footer {
   color: blue;
   cursor: pointer;
 }
+
+.erro {
+  border: 1px solid red;
+  background-color: pink;
+}
+
+.validacao {
+  display: none;
+  color: red;
+}

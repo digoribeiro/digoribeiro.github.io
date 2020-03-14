@@ -175,17 +175,30 @@
     <!-- final profissional skill -->
     <!-- Formulario -->
     <form>
-      <label for="nome">Nome</label>
-      <input type="text" name="nome" id="nome" required>
+      <div>
+        <label for="nome">Nome</label>
+        <input type="text" name="nome" id="nome" required>
+        <span class="validacao">Campo obrigatorio</span>
+      </div>
 
-      <label for="email">E-mail</label>
-      <input type="email" name="email" id="email" required>
+      <div>
+        <label for="email">E-mail</label>
+        <input type="email" name="email" id="email" required>
+        <span class="validacao">Campo obrigatorio</span>
 
-      <label for="telefone">Telefone</label>
-      <input type="tel" name="telefone" id="telefone" required>
+      </div>
 
-      <label for="mensagem">Mesagem</label>
-      <textarea name="mensagem" id="mensagem" cols="20" rows="10" required></textarea>
+      <div>
+        <label for="telefone">Telefone</label>
+        <input type="tel" name="telefone" id="telefone" required>
+        <span class="validacao">Campo obrigatorio</span>
+      </div>
+
+      <div>
+        <label for="mensagem">Mesagem</label>
+        <textarea name="mensagem" id="mensagem" cols="20" rows="10" required></textarea>
+        <span class="validacao">Campo obrigatorio</span>
+      </div>
 
       <button type="submit">
         Enviar
