@@ -26,6 +26,17 @@ main {
   flex: 1;
 }
 
+.redes-socias {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.redes-socias li a {
+  font-size: 22px;
+  color: #333;
+}
+
 .logo {
   width: 200px;
   height: 200px;
