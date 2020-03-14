@@ -131,3 +131,11 @@ main {
   margin-bottom: 20px;
   color: #999999;
 }
+
+footer {
+  background: #333333;
+  color: #eee;
+  text-align: center;
+  padding: 20px 0;
+  margin-top: 20px;
+}
