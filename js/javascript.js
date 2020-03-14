@@ -36,3 +36,5 @@ $('.owl-carousel').owlCarousel({
   autoplay: true,
   autoplayTimeout: 3000,
 });
+
+$('.telefone').mask('(00) 0000-0000');
