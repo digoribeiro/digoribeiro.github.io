@@ -1,0 +1,27 @@
+@media only screen and (max-width: 768px) {
+  .minhas-infos,
+  .cabecalho,
+  .profissional-skill {
+    flex-direction: column;
+  }
+
+  .logo {
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+
+  .logo p {
+    margin-bottom: 0;
+    margin-right: 0;
+  }
+
+  .textos {
+    margin-left: 0;
+    margin-bottom: 20px;
+  }
+
+  .profissional {
+    margin-bottom: 20px;
+  }
+}
